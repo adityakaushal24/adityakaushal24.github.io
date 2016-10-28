@@ -1,0 +1,83 @@
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.custom-header {
+  height: 50px;
+  background: #222222;
+  opacity: 0.9;
+  z-index: 100;
+}
+.custom-heading .p-heading {
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: bold;
+}
+.custom-heading .p-tag {
+  font-size: 19px;
+}
+.custom-font-size p {
+  font-size: 16px;
+}
+.custom-nav-nav ul li a {
+  color: white;
+  font-family: Montserrat;
+}
+.custom-nav-nav ul li a:hover {
+  color: #33e07e;
+  background-color: black;
+  opacity: 0.9;
+}
+.custom-nav-col.custom-nav-brand {
+  color: #33e07e;
+  font-family: Montserrat;
+}
+.custom-nav-col li a {
+  font-family: Montserrat;
+  color: #33e07e;
+}
+.left-panel {
+  padding: 0px 40px 0px 16px;
+}
+.right-panel {
+  padding-left: 40px;
+}
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+  .custom-heading .p-heading {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .custom-heading .p-tag {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 992px), only screen and (max-device-width: 992px) {
+  .custom-heading .p-heading {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .custom-heading .p-tag {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+  .custom-heading .p-heading {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .custom-heading .p-tag {
+    font-size: 14px;
+  }
+}
+.fontsize {
+  font-size: 18px;
+}
+@media only screen and (max-width: 992px), only screen and (max-device-width: 992px) {
+  .fontsize {
+    padding: 0px;
+    font-size: 15px;
+  }
+}
